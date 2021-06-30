@@ -12,6 +12,7 @@ public class Hash_Map {
 		capitalCities.put("Turkey","Istanbul");
 		capitalCities.put("USA","Washinghton");
 		System.out.println(capitalCities);
+		System.out.println(capitalCities.get("Germany"));
 	}
 
 }
