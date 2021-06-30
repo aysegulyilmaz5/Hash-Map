@@ -13,6 +13,8 @@ public class Hash_Map {
 		capitalCities.put("USA","Washinghton");
 		System.out.println(capitalCities);
 		System.out.println(capitalCities.get("Germany"));
+		for(String i : capitalCities.keySet())
+			System.out.println(i);
 	}
 
 }
